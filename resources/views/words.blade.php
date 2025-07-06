@@ -29,7 +29,7 @@
             max-width: 400px;
         }
 
-
+ 
         h1 {
             font-size: 24px;
             color: #333;
@@ -90,7 +90,7 @@
     <form action="/check-word" method="POST">
     @csrf  <!-- تأكد من إضافة توكن CSRF -->
     <label for="word">أدخل الكلمة:</label>
-    <input type="text" name="word" id="word" required>
+    <input type="text" name="word" id="fdf" required>
     <button type="submit">تحقق</button>
 </form>
 
