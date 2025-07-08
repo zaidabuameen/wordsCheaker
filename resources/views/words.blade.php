@@ -90,7 +90,7 @@
     <form action="/check-word" method="POST">
     @csrf  <!-- تأكد من إضافة توكن CSRF -->
     <label for="word">أدخل الكلمة:</label>
-    <input type="text" name="word" id="fdf" required>
+    <input type="text" name="word" id="word" required>
     <button type="submit">تحقق</button>
 </form>
 
